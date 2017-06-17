@@ -10,3 +10,7 @@ Note that each image needs a 1px transperant border for Peasy to work.
 Also peasy currently names all objects as "shape" as seen in PeasyBoxHole.json.   
 So you'd need to manually change the name, and paste it into a big collection json file containing all your physics shapes.  
 If you look in spritesPhaserExample.json it's at line 2 and renamed as BoxHole.  
+
+Edited demo at https://kobitoko.github.io/peasy2phaser/  
+
+It uses this phaser example https://phaser.io/examples/v2/p2-physics/body-click  
