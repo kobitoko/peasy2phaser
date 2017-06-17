@@ -12,5 +12,6 @@ So you'd need to manually change the name, and paste it into a big collection js
 If you look in spritesPhaserExample.json it's at line 2 and renamed as BoxHole.  
 
 Edited demo at https://kobitoko.github.io/peasy2phaser/  
+BlockDonut is the addition into the example.  
 
 It uses this phaser example https://phaser.io/examples/v2/p2-physics/body-click  
