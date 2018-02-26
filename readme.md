@@ -1,6 +1,8 @@
 # Peasy to Phaser P2 converter
 
 This python script converts a Peasy json output so that Phaser P2 Physics can use it.
+Peasy2Phaser.py <JSON file to convert> <optional:Argument2 is density, 3 is friction, 4 is bounce, 5 is categoryBits, 6 is maskBits>
+
 [Peasy2Phaser.py](https://github.com/kobitoko/peasy2phaser/blob/master/Peasy2Phaser.py)  
 Using Phaser CE, an open source HTML5 game framework. https://github.com/photonstorm/phaser-ce
 
