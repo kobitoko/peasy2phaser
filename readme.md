@@ -13,12 +13,12 @@ Also peasy currently names all objects as "shape" as seen in [PeasyBoxHole.json]
 So you'd need to manually change the name, and paste it into a big collection json file containing all your physics shapes.
 If you look in [spritesPhaserExample.json](https://github.com/kobitoko/peasy2phaser/blob/master/example/spritesPhaserExample.json) it's at line 2 and renamed as BoxHole.
 
-Edited demo at https://kobitoko.github.io/peasy2phaser/
-BlockDonut is the addition into the example.
+Edited demo in the example folder.  
+BlockDonut is the addition into the example.  
 
-It uses this phaser example https://phaser.io/examples/v2/p2-physics/body-click
+It uses this phaser example https://phaser.io/examples/v2/p2-physics/body-click  
 
-Tried also converting the output from the Physics Body Editor from https://code.google.com/archive/p/box2d-editor/  
+Tried also converting the output from the Physics Body Editor from [Box2D Editor](https://github.com/MovingBlocks/box2d-editor)  
 Both box2d versions use the python PIL library to find out the height and width of the image.  
 This script works except that the shape is vertically flipped, thus to get it correct using Physics Body Editor one can have the image upside down and export it like that from the editor for it to work in phaser the right side up:   
 [Peasy+Box2d2Phaser.py](https://github.com/kobitoko/peasy2phaser/blob/master/Peasy%2BBox2d2Phaser.py)  
